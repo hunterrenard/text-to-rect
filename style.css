@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background: rgb(220,220,220);
+}
+
+canvas {
+  box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
+input {
+  position: absolute;
+  margin: auto;
+  top: 1rem;
+  padding: .25rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
+button {
+  position: absolute;
+    top: 3rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+
+}
