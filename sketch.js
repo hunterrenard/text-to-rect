@@ -34,8 +34,9 @@ function setup() {
     let c = map(txt[i].charCodeAt(0), 97, 122, 0, 100);
     stroke(c, 100, 100);
     fill(c, 100, 100);
-    let s = map(size, 0, txt.length, 0, 800);
-    rect(0, 0, s, s);
+    let sx = map(size, 0, txt.length, 0, width);
+    let sy = map(size, 0, txt.length, 0, height);
+    rect(0, 0, sx, sy);
     size--;
   }
 }
@@ -58,8 +59,9 @@ function generateColors() {
     let c = map(txt[i].charCodeAt(0), 97, 122, 0, 100);
     stroke(c, 100, 100);
     fill(c, 100, 100);
-    let s = map(size, 0, txt.length, 0, 800);
-    rect(0, 0, s, s);
+    let sx = map(size, 0, txt.length, 0, width);
+    let sy = map(size, 0, txt.length, 0, height);
+    rect(0, 0, sx, sy);
     size--;
   }
 }
